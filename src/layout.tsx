@@ -1,13 +1,13 @@
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
-import HomePage from './pages/home-page';
+import { Outlet } from 'react-router-dom';
 
-function App() {
+function Layout() {
   return (
     <Provider store={store}>
-      <HomePage />
+      <Outlet />
     </Provider>
   );
 }
 
-export default App;
+export default Layout;
