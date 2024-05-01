@@ -1,8 +1,12 @@
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+import HomePage from './pages/home-page';
+
 function App() {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-    </div>
+    <Provider store={store}>
+      <HomePage />
+    </Provider>
   );
 }
 
