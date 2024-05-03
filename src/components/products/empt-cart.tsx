@@ -10,7 +10,7 @@ function EmptyCart() {
         <div className='card-actions justify-end'>
           <button
             className='btn btn-primary'
-            onClick={() => navigate('/product')}
+            onClick={() => navigate('/products')}
           >
             Back to Product
           </button>
