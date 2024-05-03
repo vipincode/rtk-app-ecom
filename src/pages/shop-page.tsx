@@ -2,7 +2,7 @@ import data from '../data.json';
 import { useAppDispatch, useAppSelector } from '../redux/hooks';
 import { addToCart, removeFromCart } from '../redux/slices/cart-slice';
 
-const ProductPage = () => {
+const ShopPage = () => {
   const { cartProductIds } = useAppSelector((state) => state.cart);
   const dispatch = useAppDispatch();
   return (
@@ -48,4 +48,4 @@ const ProductPage = () => {
   );
 };
 
-export default ProductPage;
+export default ShopPage;

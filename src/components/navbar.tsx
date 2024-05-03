@@ -13,7 +13,7 @@ export const Navbar = () => {
         e-Cart
       </Link>
       <nav className='flex items-center gap-8'>
-        <Link to='/products'>Product</Link>
+        <Link to='/shop'>Shop</Link>
         <Link to='/cart'>Cart({cartProductIds.length})</Link>
       </nav>
     </div>
